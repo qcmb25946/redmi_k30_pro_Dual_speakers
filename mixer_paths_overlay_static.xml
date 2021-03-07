@@ -629,15 +629,12 @@
     </path>
 
     <path name="speaker">
-       <ctl name="PRIM_MI2S_RX Format" value="S24_LE" />
     </path>
 
     <path name="speaker-mono">
-       <ctl name="PRIM_MI2S_RX Format" value="S24_LE" />
     </path>
 
     <path name="speaker-mono-2">
-       <ctl name="PRIM_MI2S_RX Format" value="S24_LE" />
     </path>
 
     <path name="speaker-protected">
@@ -669,6 +666,9 @@
         <ctl name="EAR_RDAC Switch" value="1" />
         <ctl name="RDAC3_MUX" value="RX1" />
         <ctl name="EAR PA Gain" value="G_6_DB" />
+        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX1 Digital Volume" value="84" />
+        <ctl name="RX_RX2 Digital Volume" value="84" />
     </path>
 
     <path name="handset-mic">
